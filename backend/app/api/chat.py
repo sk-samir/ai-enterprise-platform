@@ -1,8 +1,9 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-from app.agents.chat_agent import ChatAgent
+from app.agents.router_agent import RouterAgent
 from app.utils.logger import logger
+from app.services.chat_history_service import ChatHistoryService
 
 router = APIRouter()
 
@@ -14,12 +15,17 @@ class ChatRequest(BaseModel):
 @router.post("/chat")
 def chat(req: ChatRequest):
 
-    logger.info(f"Chat request received: {req.message}")
+    logger.info(f"User message: {req.message}")
 
-    response = ChatAgent.process(req.message)
+    response = RouterAgent.route(req.message)
+    logger.info(f"AI response: {response}")
+    # Save chat history
+    ChatHistoryService.save_chat(req.message, response) 
 
     return {
         "user_message": req.message,
-        "response": response,
-        "agent": "enterprise-chat-agent"
+        "response": response
     }
+
+    
+    
