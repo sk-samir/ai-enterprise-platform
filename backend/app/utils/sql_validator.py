@@ -1,15 +1,23 @@
 class SQLValidator:
 
-    ALLOWED_KEYWORDS = [
-        "select"
-    ]
-
     @staticmethod
     def validate(query: str):
 
-        lower_query = query.lower()
+        lower_query = query.lower().strip()
 
-        return any(
+        if not lower_query.startswith("select"):
+            return False
+
+        blocked_keywords = [
+            "delete",
+            "drop",
+            "update",
+            "insert",
+            "alter",
+            "truncate"
+        ]
+
+        return not any(
             keyword in lower_query
-            for keyword in SQLValidator.ALLOWED_KEYWORDS
+            for keyword in blocked_keywords
         )

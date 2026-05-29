@@ -1,106 +1,64 @@
-2026-05-20 19:16:14,350 - INFO - Chat request received: Hello AI
-2026-05-20 19:19:43,906 - INFO - Dashboard request received
-2026-05-20 19:56:14,872 - INFO - Chat request received: Explain what is FastAPI
-2026-05-20 19:57:15,017 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2026-05-20 20:01:37,970 - INFO - Chat request received: How does loan approval work in banks?
-2026-05-20 20:02:38,253 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2026-05-20 20:06:08,342 - INFO - Chat request received: How does loan approval work in banks?
-2026-05-20 20:07:04,161 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2026-05-21 12:54:55,849 - INFO - Dashboard request received
-2026-05-21 12:56:22,008 - INFO - Presentation request received
-2026-05-21 13:11:12,523 - INFO - User message: Write SQL query for customer transactions
-2026-05-21 13:12:09,220 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2026-05-21 13:14:10,587 - INFO - User message: Generate presentation for loan portfolio analysis
-2026-05-21 13:15:25,027 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2026-05-21 13:20:04,535 - INFO - User message: Generate presentation for loan portfolio analysis
-2026-05-21 13:20:04,535 - INFO - Routing to Presentation Agent
-2026-05-21 13:21:13,058 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2026-05-21 14:11:29,956 - INFO - User message: Explain banking dashboards
-2026-05-21 14:11:29,957 - INFO - Routing to Dashboard Agent
-2026-05-21 14:12:39,013 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2026-05-21 14:12:39,014 - INFO - AI response: **Banking Dashboards: A Guide to Unlocking Insights**
-
-As an Enterprise Dashboard Analytics Assistant, I'm excited to share a comprehensive overview of banking dashboards and the valuable insights they can provide. Banking dashboards are visual representations of financial data that help institutions make informed decisions, optimize operations, and improve customer satisfaction.
-
-**What is a Banking Dashboard?**
-
-A banking dashboard is an interactive, web-based platform that displays key performance indicators (KPIs), metrics, and data visualizations to facilitate data-driven decision-making. It's designed to provide real-time visibility into various aspects of the bank's operations, such as:
-
-1. **Financial Performance**: Revenue, expenses, profit/loss statements, and cash flow management.
-2. **Customer Engagement**: Account activity, transaction volume, and customer satisfaction metrics.
-3. **Operational Efficiency**: Processing times, error rates, and staff productivity.
-4. **Risk Management**: Credit risk, market risk, and operational risk monitoring.
-
-**Benefits of Banking Dashboards**
-
-1. **Improved Decision-Making**: Data-driven insights enable informed decisions, reducing reliance on intuition or guesswork.
-2. **Enhanced Customer Experience**: By tracking customer behavior and sentiment, banks can proactively address concerns and improve loyalty.
-3. **Operational Excellence**: Real-time monitoring helps identify bottlenecks, optimize processes, and streamline operations.
-4. **Compliance**: Dashboards can track regulatory compliance and flag potential issues early on.
-
-**Key Metrics and KPIs**
-
-1. **Transaction Volume**: Total transactions processed, including deposit and withdrawal amounts.
-2. **Customer Acquisition**: New account openings, retention rates, and customer lifetime value.
-3. **Revenue Growth**: Year-over-year revenue growth, broken down by product or service.
-4. **Cost-to-Serve Ratio**: Operating expenses as a percentage of revenue, helping banks optimize costs.
-5. **Net Promoter Score (NPS)**: Customer satisfaction metric, measuring likelihood to recommend the bank.
-
-**Data Visualization Best Practices**
-
-1. **Storytelling**: Use data visualizations to tell a story about your business performance and trends.
-2. **Simple and Intuitive Design**: Make it easy for users to understand complex data insights.
-3. **Interactive Elements**: Allow users to drill down into specific data points or explore different scenarios.
-4. **Alerts and Notifications**: Set up alerts for critical metrics, such as significant changes in revenue or customer churn.
-
-**Conclusion**
-
-Banking dashboards are powerful tools that can revolutionize the way banks operate. By providing real-time insights into financial performance, customer engagement, operational efficiency, and risk management, these dashboards empower decision-makers to make data-driven choices. With the right metrics, KPIs, and visualization best practices in place, banking dashboards can help institutions stay ahead of the competition and drive growth.
-2026-05-21 19:13:52,105 - INFO - User message: Show dashboards
-2026-05-21 19:13:52,105 - INFO - Routing to Dashboard Agent
-2026-05-21 19:14:42,219 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2026-05-21 19:14:42,220 - INFO - AI response: Welcome to the Enterprise Dashboard Analytics Assistant! I'm excited to provide you with valuable insights and visualizations from our comprehensive dashboard.
-
-**Show Dashboards**
-
-Here's a sneak peek at some of the key metrics and KPIs that are currently trending across various departments:
-
-**Revenue Performance**
-
-* **Quarterly Revenue**: $2.5M (up 12% YoY)
-* **Top Performing Products**: Software Solutions (35%), Data Analytics Tools (25%), and Cybersecurity Services (20%)
-* **Growth Regions**: North America (40%), Europe (30%), and Asia-Pacific (30%)
-
-**Customer Engagement**
-
-* **New Customers**: 500 (up 15% MoM)
-* **Average Order Value**: $1,200
-* **Customer Retention Rate**: 85%
-* **Top Customer Segments**: Small Business Owners (25%), Medium-Sized Enterprises (20%), and Large Corporations (55%)
-
-**Operational Efficiency**
-
-* **Order Fulfillment Time**: 3 days (down 2 days MoM)
-* **Inventory Turnover**: 5.2x
-* **Supply Chain Lead Time**: 14 days (down 1 day MoM)
-
-**Employee Performance**
-
-* **Headcount**: 500 (up 10% YoY)
-* **Average Tenure**: 3 years
-* **Top Performing Departments**: Sales (20%), Marketing (15%), and Customer Support (15%)
-* **Training Hours per Employee**: 40 hours (up 5 hours MoM)
-
-**Financial Performance**
-
-* **Gross Margin**: 75%
-* **Operating Expenses**: $1.2M (down 8% YoY)
-* **Net Income**: $500K (up 25% YoY)
-
-These insights provide a snapshot of our organization's performance across various dimensions. As your analytics assistant, I can drill down further into specific metrics or explore additional KPIs to help you make data-driven decisions.
-
-What would you like to explore next?
-2026-05-21 19:15:37,634 - INFO - User message: Show dashboards
-2026-05-21 19:15:37,634 - INFO - Routing to SQL Agent
-2026-05-21 19:15:41,705 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2026-05-21 19:15:41,790 - INFO - AI response: {'generated_sql': 'SELECT * FROM dashboards;', 'results': [{'id': 1, 'name': 'Banking KPI Dashboard', 'description': 'Shows banking metrics and loan KPIs'}, {'id': 2, 'name': 'Fraud Analytics Dashboard', 'description': 'Shows fraud detection insights'}, {'id': 3, 'name': 'Banking KPI Dashboard', 'description': 'Shows banking metrics and loan KPIs'}, {'id': 4, 'name': 'Fraud Analytics Dashboard', 'description': 'Shows fraud detection insights'}]}
+2026-05-26 15:53:28,699 - INFO - User message: Show dashboards
+2026-05-26 15:53:28,699 - INFO - Routing to SQL Agent
+2026-05-26 15:53:30,123 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-26 15:53:30,124 - INFO - SQL_query before cleaning: SELECT * FROM dashboards;
+2026-05-26 15:53:30,124 - INFO - Generated SQL: SELECT * FROM dashboards;
+2026-05-26 15:53:30,125 - INFO - Tool Call: tool='sql' query='SELECT * FROM dashboards;' collection=None payload=None
+2026-05-26 15:53:30,125 - INFO - Executing tool: sql with query: SELECT * FROM dashboards;
+2026-05-26 15:53:30,125 - INFO - Received SQL query: SELECT * FROM dashboards;
+2026-05-26 15:53:30,172 - INFO - AI response: {'query': 'SELECT * FROM dashboards;', 'results': [{'id': 1, 'name': 'Banking KPI Dashboard', 'description': 'Shows banking metrics and loan KPIs'}, {'id': 2, 'name': 'Fraud Analytics Dashboard', 'description': 'Shows fraud detection insights'}, {'id': 3, 'name': 'Banking KPI Dashboard', 'description': 'Shows banking metrics and loan KPIs'}, {'id': 4, 'name': 'Fraud Analytics Dashboard', 'description': 'Shows fraud detection insights'}]}
+2026-05-27 23:25:45,276 - INFO - User message: latest banking dashboard trends
+2026-05-27 23:25:45,277 - INFO - Routing to Web Agent
+2026-05-27 23:25:45,277 - INFO - Executing tool: web with query: latest banking dashboard trends
+2026-05-27 23:25:45,598 - INFO - response: https://grokipedia.com/api/typeahead?query=latest+banking+dashboard+trends&limit=1 200
+2026-05-27 23:25:45,603 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20banking%20dashboard%20trends 200
+2026-05-27 23:25:45,838 - INFO - response: https://www.startpage.com/ 200
+2026-05-27 23:25:46,211 - INFO - response: https://www.startpage.com/sp/search 200
+2026-05-27 23:25:46,260 - INFO - [{'title': 'Financial Dashboard Examples: Modern Bank Data Insights', 'href': 'https://visbanking.com/financial-dashboard-examples', 'body': 'Apr 25, 2025 ... Forecasting capabilities help anticipate future revenue based on current trends. Customer Acquisition Cost (CAC) Analysis: Calculates the ...'}, {'title': 'Global Banking Annual Review 2026: Precision with speed - McKinsey', 'href': 'https://www.mckinsey.com/industries/financial-services/our-insights/global-banking-annual-review', 'body': '7 days ago ... Combined with the emergence of new, scalable technologies, this trend is creating tailwinds for a new model of banking expansion. Steady ...'}, {'title': 'Drive Financial Performance with a Modern Banking Dashboard', 'href': 'https://gallery.fanruan.com/bank-operation-dashboard', 'body': 'Future Trends: The Evolution of Autonomous Banking Dashboards. By 2026, the dashboard will stop being a mirror and start being an engine. AI and Predictive ...'}, {'title': 'Create a insightful Banking Dashboards for your Operations', 'href': 'https://www.softwebsolutions.com/data-analytics-banking-dashboard/', 'body': 'Advanced data visualization and analytics allow you to effectively track key performance indicators, identify trends, and analyze real-time financial data.'}, {'title': 'Dashboards - De Nederlandsche Bank (DNB)', 'href': 'https://www.dnb.nl/en/statistics/dashboards/', 'body': 'In the dashboards below, we present the main trends in the financial sector and the balance of payments. The charts in the dashboards are updated in real-time.'}]
+2026-05-27 23:25:46,261 - INFO - AI response: {'tool': 'web_search', 'query': 'latest banking dashboard trends', 'results': [{'title': 'Financial Dashboard Examples: Modern Bank Data Insights', 'link': 'https://visbanking.com/financial-dashboard-examples', 'snippet': 'Apr 25, 2025 ... Forecasting capabilities help anticipate future revenue based on current trends. Customer Acquisition Cost (CAC) Analysis: Calculates the ...'}, {'title': 'Global Banking Annual Review 2026: Precision with speed - McKinsey', 'link': 'https://www.mckinsey.com/industries/financial-services/our-insights/global-banking-annual-review', 'snippet': '7 days ago ... Combined with the emergence of new, scalable technologies, this trend is creating tailwinds for a new model of banking expansion. Steady ...'}, {'title': 'Drive Financial Performance with a Modern Banking Dashboard', 'link': 'https://gallery.fanruan.com/bank-operation-dashboard', 'snippet': 'Future Trends: The Evolution of Autonomous Banking Dashboards. By 2026, the dashboard will stop being a mirror and start being an engine. AI and Predictive ...'}, {'title': 'Create a insightful Banking Dashboards for your Operations', 'link': 'https://www.softwebsolutions.com/data-analytics-banking-dashboard/', 'snippet': 'Advanced data visualization and analytics allow you to effectively track key performance indicators, identify trends, and analyze real-time financial data.'}, {'title': 'Dashboards - De Nederlandsche Bank (DNB)', 'link': 'https://www.dnb.nl/en/statistics/dashboards/', 'snippet': 'In the dashboards below, we present the main trends in the financial sector and the balance of payments. The charts in the dashboards are updated in real-time.'}]}
+2026-05-27 23:44:04,923 - INFO - User message: latest banking dashboard trends
+2026-05-27 23:44:04,923 - INFO - Routing to Web Agent
+2026-05-27 23:44:04,923 - INFO - Executing tool: web with query: latest banking dashboard trends
+2026-05-27 23:44:05,232 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20banking%20dashboard%20trends 200
+2026-05-27 23:44:05,287 - INFO - response: https://grokipedia.com/api/typeahead?query=latest+banking+dashboard+trends&limit=1 200
+2026-05-27 23:44:05,559 - INFO - response: https://search.yahoo.com/search;_ylt=LAeJEEXQWFKDK4VTq4DEMFxV;_ylu=EcjPUzeFPkHQCQdMzDrITTUtu5IrXiaME1IafvB96LmM42Q?p=latest+banking+dashboard+trends 200
+2026-05-27 23:44:06,128 - INFO - [{'title': '13 Best Finance, Fintech & Banking Dashboard Templates 2026', 'href': 'https://adminlte.io/blog/fintech-banking-dashboard-templates/', 'body': 'May 20, 2026 · Curated list of the 10 best fintech and banking dashboard templates for 2026. Includes Bloomberg-style trading terminals, investment apps, crypto dashboards, and full-stack banking starters.'}, {'title': 'McKinsey’s Global Banking Annual Review 2026 | McKinseyTop banking trends for 2026 - AccentureQuarterly Banking Profile - FDIC.govModern Banking Dashboards for Strategic Leadership2026 banking and capital markets outlook | Deloitte InsightsMarkets Data Dashboard - Federal Reserve Bank of New York', 'href': 'https://www.mckinsey.com/industries/financial-services/our-insights/global-banking-annual-review', 'body': "There’s some solace in the witticism about it not being the end if it’s not fine. But recently, things have been fine indeed for banking, so what does that say about the endgame? In fact, the past two years have been the best for banking since before the Great Recession. Globally, banks generated $7 trillion in revenue (Exhibit 1) and $1.1 trillion... See full list on mckinsey.com We believe that banks wanting to attain escape velocity will need to operate very differently from today to “avoid gravity.” To understand how they could do this, we looked at the track record of performance by some leaders, hoping to find clues to their longer-term health. As we say this, it’s also important to note that banks are by nature fragil... See full list on mckinsey.com Perhaps heeding the baseball sage’s advice, banking winners have achieved their position through a combination of both structural and execution moves. Neither strategy confers enduring advantages, but the combined effect puts banks in a position that’s market leading. Here’s what we observed: See full list on mckinsey.com Winners have at least one of three structural markers that drive their performance: 1. Picking and decisively committing to the right segments for growth while avoiding the trap of over-rotating into them. Investing in growth by client segment or product type but not tipping to a point of concentrating exposure is crucial. Some winners have grown t... See full list on mckinsey.com Execution excellence also provides an edge. For many institutions, there are limits to what can be done structurally (for example, shifting geographies and entering more attractive lines of business). More disciplined focus can be on targeting specific profit pools, more granular pricing capabilities, and better tailored customer segments for growt... See full list on mckinsey.com About 10 percent of global banks have been successful at raising their performance by as much as five or more deciles of the industry’s ROTE distribution, showing that breakout performance is indeed possible in this sector (Exhibit 6). But overall, our analysis shows that there doesn’t seem to be a lot of relative positional movement in the industr... See full list on mckinsey.com Accenture’s Banking Trends 2026 reveals how agentic AI, smart money and shifting competition will reshape customer experience and growth. Read the report. May 19, 2026 · Find tools and data to explore trends in the banking industry, compare financial performance across institutions and states, and view charts and graphs from current and past QBPs. May 20, 2026 · That gap is exactly what modern banking dashboards are built to close. This post covers what they do, how they improve risk management and strategic alignment, and what bank leaders should look for when evaluating platforms. What Do Modern Banking Dashboards Do? Oct 30, 2025 · 2026 appears to be shaping up as a defining year for US banks. Macroeconomic uncertainty, diverging consumer sentiment, and persistent inflation could test banks’ revenues and profitability, even as strong capital positions provide resilience. 1 day ago · Data are updated Thursdays with previous week's statistics. Tri-Party/GCF Repo Statistics: Includes a snapshot view of the U.S. tri-party repo and GCF Repo® markets on the seventh business day of each month. Data are updated monthly, on or about the 11th business day of the month."}, {'title': 'Top banking trends for 2026 - Accenture', 'href': 'https://www.accenture.com/us-en/insights/banking/accenture-banking-trends-2026', 'body': 'Accenture’s Banking Trends 2026 reveals how agentic AI, smart money and shifting competition will reshape customer experience and growth. Read the report.'}, {'title': 'Quarterly Banking Profile - FDIC.gov', 'href': 'https://www.fdic.gov/quarterly-banking-profile', 'body': 'May 19, 2026 · Find tools and data to explore trends in the banking industry, compare financial performance across institutions and states, and view charts and graphs from current and past QBPs.'}, {'title': 'Modern Banking Dashboards for Strategic Leadership', 'href': 'https://www.spiderstrategies.com/blog/banking-dashboards/', 'body': 'May 20, 2026 · That gap is exactly what modern banking dashboards are built to close. This post covers what they do, how they improve risk management and strategic alignment, and what bank leaders should look for when evaluating platforms. What Do Modern Banking Dashboards Do?'}]
+2026-05-27 23:44:06,130 - INFO - AI response: {'tool': 'web_search', 'query': 'latest banking dashboard trends', 'results': [{'title': '13 Best Finance, Fintech & Banking Dashboard Templates 2026', 'link': 'https://adminlte.io/blog/fintech-banking-dashboard-templates/', 'snippet': 'May 20, 2026 · Curated list of the 10 best fintech and banking dashboard templates for 2026. Includes Bloomberg-style trading terminals, investment apps, crypto dashboards, and full-stack banking starters.'}, {'title': 'McKinsey’s Global Banking Annual Review 2026 | McKinseyTop banking trends for 2026 - AccentureQuarterly Banking Profile - FDIC.govModern Banking Dashboards for Strategic Leadership2026 banking and capital markets outlook | Deloitte InsightsMarkets Data Dashboard - Federal Reserve Bank of New York', 'link': 'https://www.mckinsey.com/industries/financial-services/our-insights/global-banking-annual-review', 'snippet': "There’s some solace in the witticism about it not being the end if it’s not fine. But recently, things have been fine indeed for banking, so what does that say about the endgame? In fact, the past two years have been the best for banking since before the Great Recession. Globally, banks generated $7 trillion in revenue (Exhibit 1) and $1.1 trillion... See full list on mckinsey.com We believe that banks wanting to attain escape velocity will need to operate very differently from today to “avoid gravity.” To understand how they could do this, we looked at the track record of performance by some leaders, hoping to find clues to their longer-term health. As we say this, it’s also important to note that banks are by nature fragil... See full list on mckinsey.com Perhaps heeding the baseball sage’s advice, banking winners have achieved their position through a combination of both structural and execution moves. Neither strategy confers enduring advantages, but the combined effect puts banks in a position that’s market leading. Here’s what we observed: See full list on mckinsey.com Winners have at least one of three structural markers that drive their performance: 1. Picking and decisively committing to the right segments for growth while avoiding the trap of over-rotating into them. Investing in growth by client segment or product type but not tipping to a point of concentrating exposure is crucial. Some winners have grown t... See full list on mckinsey.com Execution excellence also provides an edge. For many institutions, there are limits to what can be done structurally (for example, shifting geographies and entering more attractive lines of business). More disciplined focus can be on targeting specific profit pools, more granular pricing capabilities, and better tailored customer segments for growt... See full list on mckinsey.com About 10 percent of global banks have been successful at raising their performance by as much as five or more deciles of the industry’s ROTE distribution, showing that breakout performance is indeed possible in this sector (Exhibit 6). But overall, our analysis shows that there doesn’t seem to be a lot of relative positional movement in the industr... See full list on mckinsey.com Accenture’s Banking Trends 2026 reveals how agentic AI, smart money and shifting competition will reshape customer experience and growth. Read the report. May 19, 2026 · Find tools and data to explore trends in the banking industry, compare financial performance across institutions and states, and view charts and graphs from current and past QBPs. May 20, 2026 · That gap is exactly what modern banking dashboards are built to close. This post covers what they do, how they improve risk management and strategic alignment, and what bank leaders should look for when evaluating platforms. What Do Modern Banking Dashboards Do? Oct 30, 2025 · 2026 appears to be shaping up as a defining year for US banks. Macroeconomic uncertainty, diverging consumer sentiment, and persistent inflation could test banks’ revenues and profitability, even as strong capital positions provide resilience. 1 day ago · Data are updated Thursdays with previous week's statistics. Tri-Party/GCF Repo Statistics: Includes a snapshot view of the U.S. tri-party repo and GCF Repo® markets on the seventh business day of each month. Data are updated monthly, on or about the 11th business day of the month."}, {'title': 'Top banking trends for 2026 - Accenture', 'link': 'https://www.accenture.com/us-en/insights/banking/accenture-banking-trends-2026', 'snippet': 'Accenture’s Banking Trends 2026 reveals how agentic AI, smart money and shifting competition will reshape customer experience and growth. Read the report.'}, {'title': 'Quarterly Banking Profile - FDIC.gov', 'link': 'https://www.fdic.gov/quarterly-banking-profile', 'snippet': 'May 19, 2026 · Find tools and data to explore trends in the banking industry, compare financial performance across institutions and states, and view charts and graphs from current and past QBPs.'}, {'title': 'Modern Banking Dashboards for Strategic Leadership', 'link': 'https://www.spiderstrategies.com/blog/banking-dashboards/', 'snippet': 'May 20, 2026 · That gap is exactly what modern banking dashboards are built to close. This post covers what they do, how they improve risk management and strategic alignment, and what bank leaders should look for when evaluating platforms. What Do Modern Banking Dashboards Do?'}]}
+2026-05-27 23:44:43,018 - INFO - User message: show all data
+2026-05-27 23:44:43,019 - INFO - Routing to SQL Agent
+2026-05-27 23:44:57,159 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 23:44:57,159 - INFO - SQL_query before cleaning: SELECT * FROM dashboards;
+2026-05-27 23:44:57,159 - INFO - Generated SQL: SELECT * FROM dashboards;
+2026-05-27 23:44:57,159 - INFO - Tool Call: tool='sql' query='SELECT * FROM dashboards;' collection=None payload=None
+2026-05-27 23:44:57,159 - INFO - Executing tool: sql with query: SELECT * FROM dashboards;
+2026-05-27 23:44:57,159 - INFO - Received SQL query: SELECT * FROM dashboards;
+2026-05-27 23:44:57,251 - INFO - AI response: {'query': 'SELECT * FROM dashboards;', 'results': [{'id': 1, 'name': 'Banking KPI Dashboard', 'description': 'Shows banking metrics and loan KPIs'}, {'id': 2, 'name': 'Fraud Analytics Dashboard', 'description': 'Shows fraud detection insights'}, {'id': 3, 'name': 'Banking KPI Dashboard', 'description': 'Shows banking metrics and loan KPIs'}, {'id': 4, 'name': 'Fraud Analytics Dashboard', 'description': 'Shows fraud detection insights'}]}
+2026-05-28 00:01:50,070 - INFO - User message: Show transaction dashboard
+2026-05-28 00:01:50,070 - INFO - Routing to Dashboard Agent
+2026-05-28 00:01:50,071 - INFO - AI response: {'dashboard_name': 'AI Generated Dashboard', 'widgets': [{'title': 'Monthly Transactions', 'chart_type': 'bar', 'data': [{'month': 'Jan', 'count': 120}, {'month': 'Feb', 'count': 150}, {'month': 'Mar', 'count': 180}]}]}
+2026-05-28 16:50:07,099 - INFO - User message: Show transaction dashboard
+2026-05-28 16:50:07,099 - INFO - Routing to Dashboard Agent
+2026-05-28 16:50:07,099 - INFO - AI response: {'dashboard_name': 'Enterprise Dashboard', 'metadata': {'generated_by': 'AI Dashboard Engine', 'data_source': 'Mock Data', 'generated_at': '2026-05-28 16:50:07.099781'}, 'widgets': [{'title': 'Monthly Transactions', 'widget_type': 'chart', 'chart_type': 'bar', 'data': [{'month': 'Jan', 'count': 120}, {'month': 'Feb', 'count': 180}, {'month': 'Mar', 'count': 220}], 'description': 'Monthly transaction trend'}, {'title': 'Total Transactions', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 520}], 'description': None}]}
+2026-05-28 16:50:17,100 - INFO - User message: Show transaction dashboard
+2026-05-28 16:50:17,101 - INFO - Routing to Dashboard Agent
+2026-05-28 16:50:17,101 - INFO - AI response: {'dashboard_name': 'Enterprise Dashboard', 'metadata': {'generated_by': 'AI Dashboard Engine', 'data_source': 'Mock Data', 'generated_at': '2026-05-28 16:50:17.101384'}, 'widgets': [{'title': 'Monthly Transactions', 'widget_type': 'chart', 'chart_type': 'bar', 'data': [{'month': 'Jan', 'count': 120}, {'month': 'Feb', 'count': 180}, {'month': 'Mar', 'count': 220}], 'description': 'Monthly transaction trend'}, {'title': 'Total Transactions', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 520}], 'description': None}]}
+2026-05-28 19:08:36,866 - INFO - User message: Show transaction dashboard
+2026-05-28 19:08:36,866 - INFO - Routing to Dashboard Agent
+2026-05-28 19:08:36,907 - INFO - AI response: {'dashboard_name': 'Enterprise Dashboard', 'metadata': {'generated_by': 'AI Dashboard Engine', 'data_source': 'MySQL', 'generated_at': '2026-05-28 19:08:36.906156'}, 'widgets': [{'title': 'Monthly Transactions', 'widget_type': 'chart', 'chart_type': 'bar', 'data': [{'month': 'Jan', 'transaction_count': 120}, {'month': 'Feb', 'transaction_count': 180}, {'month': 'Mar', 'transaction_count': 220}], 'description': 'Live transaction data'}]}
+2026-05-28 19:08:50,876 - INFO - User message: Show revenue dashboard
+2026-05-28 19:08:50,876 - INFO - Routing to Dashboard Agent
+2026-05-28 19:08:50,878 - INFO - AI response: {'dashboard_name': 'Enterprise Dashboard', 'metadata': {'generated_by': 'AI Dashboard Engine', 'data_source': 'MySQL', 'generated_at': '2026-05-28 19:08:50.877982'}, 'widgets': [{'title': 'Revenue Analytics', 'widget_type': 'chart', 'chart_type': 'bar', 'data': [{'month': 'Jan', 'revenue': Decimal('12000.50')}, {'month': 'Feb', 'revenue': Decimal('18500.75')}, {'month': 'Mar', 'revenue': Decimal('24000.25')}], 'description': 'Monthly revenue trend'}]}
+2026-05-28 19:23:14,187 - INFO - User message: Show revenue dashboard
+2026-05-28 19:23:14,187 - INFO - Routing to Dashboard Agent
+2026-05-28 19:23:14,304 - INFO - AI response: {'dashboard_name': 'Enterprise Dashboard', 'metadata': {'generated_by': 'AI Dashboard Engine', 'data_source': 'MySQL', 'generated_at': '2026-05-28 19:23:14.303812'}, 'widgets': [{'title': 'Revenue Analytics', 'widget_type': 'chart', 'chart_type': 'bar', 'data': [{'month': 'Jan', 'revenue': 12000.5}, {'month': 'Feb', 'revenue': 18500.75}, {'month': 'Mar', 'revenue': 24000.25}], 'description': 'Monthly revenue trend'}]}
+2026-05-29 17:42:00,984 - INFO - User message: Show revenue dashboard
+2026-05-29 17:42:00,984 - INFO - Routing to Dashboard Agent
+2026-05-29 17:44:35,891 - INFO - User message: Show revenue dashboard
+2026-05-29 17:44:35,892 - INFO - Routing to Dashboard Agent
+2026-05-29 17:44:35,924 - INFO - AI response: {'dashboard_name': 'Enterprise Dashboard', 'metadata': {'generated_by': 'AI Dashboard Engine', 'data_source': 'MySQL', 'generated_at': '2026-05-29 17:44:35.924346'}, 'widgets': [{'title': 'Revenue Analytics', 'widget_type': 'chart', 'chart_type': 'bar', 'data': [{'month': 'Jan', 'revenue': 12000.5}, {'month': 'Feb', 'revenue': 18500.75}, {'month': 'Mar', 'revenue': 24000.25}], 'description': 'Monthly revenue trend'}, {'title': 'Total Revenue', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 54501.5}], 'description': 'Overall revenue'}, {'title': 'Total Customers', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 760.0}], 'description': 'Overall customer count'}, {'title': 'Total Transactions', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 520.0}], 'description': 'Overall transaction count'}]}
+2026-05-29 17:45:28,417 - INFO - User message: Show revenue dashboard
+2026-05-29 17:45:28,417 - INFO - Routing to Dashboard Agent
+2026-05-29 17:45:28,420 - INFO - AI response: {'dashboard_name': 'Enterprise Dashboard', 'metadata': {'generated_by': 'AI Dashboard Engine', 'data_source': 'MySQL', 'generated_at': '2026-05-29 17:45:28.420543'}, 'widgets': [{'title': 'Revenue Analytics', 'widget_type': 'chart', 'chart_type': 'bar', 'data': [{'month': 'Jan', 'revenue': 12000.5}, {'month': 'Feb', 'revenue': 18500.75}, {'month': 'Mar', 'revenue': 24000.25}], 'description': 'Monthly revenue trend'}, {'title': 'Total Revenue', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 54501.5}], 'description': 'Overall revenue'}, {'title': 'Total Customers', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 760.0}], 'description': 'Overall customer count'}, {'title': 'Total Transactions', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 520.0}], 'description': 'Overall transaction count'}]}
+2026-05-29 18:10:20,947 - INFO - User message: Show revenue dashboard
+2026-05-29 18:10:20,948 - INFO - Routing to Dashboard Agent
+2026-05-29 18:10:21,004 - INFO - AI response: {'dashboard_name': 'Enterprise Dashboard', 'metadata': {'generated_by': 'AI Dashboard Engine', 'generated_at': '2026-05-29 18:10:21.004217', 'data_source': 'MySQL & MongoDB', 'dashboard_version': '1.0'}, 'widgets': [{'widget_id': 'revenue_analytics', 'title': 'Revenue Analytics', 'widget_type': 'chart', 'chart_type': 'bar', 'data': [{'month': 'Jan', 'revenue': 12000.5}, {'month': 'Feb', 'revenue': 18500.75}, {'month': 'Mar', 'revenue': 24000.25}], 'description': 'Monthly revenue trend'}, {'widget_id': 'total_revenue', 'title': 'Total Revenue', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 54501.5}], 'description': 'Overall revenue'}, {'widget_id': 'total_customers', 'title': 'Total Customers', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 760.0}], 'description': 'Overall customer count'}, {'widget_id': 'total_transactions', 'title': 'Total Transactions', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 520.0}], 'description': 'Overall transaction count'}, {'widget_id': 'total_ai_chats', 'title': 'Total AI Chats', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 27}], 'description': 'Overall chat interactions'}, {'widget_id': "today's_chats", 'title': "Today's Chats", 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 0}], 'description': 'Chat interactions today'}]}

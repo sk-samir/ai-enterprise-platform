@@ -1,4 +1,4 @@
-from app.services.ai_service import AIService
+from app.tools.dashboard_tool import DashboardTool
 
 
 class DashboardAgent:
@@ -6,12 +6,6 @@ class DashboardAgent:
     @staticmethod
     def process(user_message: str):
 
-        prompt = f"""
-        You are an enterprise dashboard analytics assistant.
-
-        Generate dashboard insights for:
-
-        {user_message}
-        """
-
-        return AIService.generate_response(prompt)
+        return DashboardTool.create_dashboard(
+            user_message
+        )
