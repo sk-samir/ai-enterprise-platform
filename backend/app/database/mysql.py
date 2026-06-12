@@ -1,16 +1,16 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from app.database.connection import Settings
 
+from app.config.settings import settings
 
 DATABASE_URL = (
     f"mysql+pymysql://"
-    f"{Settings.MYSQL_USER}:"
-    f"{Settings.MYSQL_PASSWORD}@"
-    f"{Settings.MYSQL_HOST}:"
-    f"{Settings.MYSQL_PORT}/"
-    f"{Settings.MYSQL_DATABASE}"
+    f"{settings.MYSQL_USER}:"
+    f"{settings.MYSQL_PASSWORD}@"
+    f"{settings.MYSQL_HOST}:"
+    f"{settings.MYSQL_PORT}/"
+    f"{settings.MYSQL_DATABASE}"
 )
 
 print(f"Database URL: {DATABASE_URL}")  # Debugging line to check the constructed URL

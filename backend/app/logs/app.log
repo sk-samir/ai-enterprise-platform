@@ -62,3 +62,46 @@
 2026-05-29 18:10:20,947 - INFO - User message: Show revenue dashboard
 2026-05-29 18:10:20,948 - INFO - Routing to Dashboard Agent
 2026-05-29 18:10:21,004 - INFO - AI response: {'dashboard_name': 'Enterprise Dashboard', 'metadata': {'generated_by': 'AI Dashboard Engine', 'generated_at': '2026-05-29 18:10:21.004217', 'data_source': 'MySQL & MongoDB', 'dashboard_version': '1.0'}, 'widgets': [{'widget_id': 'revenue_analytics', 'title': 'Revenue Analytics', 'widget_type': 'chart', 'chart_type': 'bar', 'data': [{'month': 'Jan', 'revenue': 12000.5}, {'month': 'Feb', 'revenue': 18500.75}, {'month': 'Mar', 'revenue': 24000.25}], 'description': 'Monthly revenue trend'}, {'widget_id': 'total_revenue', 'title': 'Total Revenue', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 54501.5}], 'description': 'Overall revenue'}, {'widget_id': 'total_customers', 'title': 'Total Customers', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 760.0}], 'description': 'Overall customer count'}, {'widget_id': 'total_transactions', 'title': 'Total Transactions', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 520.0}], 'description': 'Overall transaction count'}, {'widget_id': 'total_ai_chats', 'title': 'Total AI Chats', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 27}], 'description': 'Overall chat interactions'}, {'widget_id': "today's_chats", 'title': "Today's Chats", 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 0}], 'description': 'Chat interactions today'}]}
+2026-05-29 21:13:53,145 - INFO - User message: Show revenue dashboard for March
+2026-05-29 21:13:53,145 - INFO - Routing to Dashboard Agent
+2026-05-29 21:13:53,307 - INFO - AI response: {'dashboard_name': 'Enterprise Dashboard', 'metadata': {'generated_by': 'AI Dashboard Engine', 'generated_at': '2026-05-29 21:13:53.307501', 'data_source': 'MySQL & MongoDB', 'dashboard_version': '1.0'}, 'widgets': [{'widget_id': 'revenue_analytics', 'title': 'Revenue Analytics', 'widget_type': 'chart', 'chart_type': 'bar', 'data': [{'month': 'Mar', 'revenue': 24000.25}], 'description': 'Monthly revenue trend'}, {'widget_id': 'total_revenue', 'title': 'Total Revenue', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 54501.5}], 'description': 'Overall revenue'}, {'widget_id': 'total_customers', 'title': 'Total Customers', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 760.0}], 'description': 'Overall customer count'}, {'widget_id': 'total_transactions', 'title': 'Total Transactions', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 520.0}], 'description': 'Overall transaction count'}, {'widget_id': 'total_ai_chats', 'title': 'Total AI Chats', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 28}], 'description': 'Overall chat interactions'}, {'widget_id': "today's_chats", 'title': "Today's Chats", 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 0}], 'description': 'Chat interactions today'}]}
+2026-06-10 19:26:47,418 - INFO - User message: Show revenue dashboard
+2026-06-10 19:26:47,418 - INFO - Routing to Dashboard Agent
+2026-06-10 19:26:47,501 - INFO - AI response: {'dashboard_name': 'Enterprise Dashboard', 'metadata': {'generated_by': 'AI Dashboard Engine', 'generated_at': '2026-06-10 19:26:47.501636', 'data_source': 'MySQL & MongoDB', 'dashboard_version': '1.0'}, 'widgets': [{'widget_id': 'revenue_analytics', 'title': 'Revenue Analytics', 'widget_type': 'chart', 'chart_type': 'bar', 'data': [{'month': 'Jan', 'revenue': 12000.5}, {'month': 'Feb', 'revenue': 18500.75}, {'month': 'Mar', 'revenue': 24000.25}], 'description': 'Monthly revenue trend'}, {'widget_id': 'total_revenue', 'title': 'Total Revenue', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 54501.5}], 'description': 'Overall revenue'}, {'widget_id': 'total_customers', 'title': 'Total Customers', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 760.0}], 'description': 'Overall customer count'}, {'widget_id': 'total_transactions', 'title': 'Total Transactions', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 520.0}], 'description': 'Overall transaction count'}, {'widget_id': 'total_ai_chats', 'title': 'Total AI Chats', 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 29}], 'description': 'Overall chat interactions'}, {'widget_id': "today's_chats", 'title': "Today's Chats", 'widget_type': 'kpi', 'chart_type': None, 'data': [{'value': 0}], 'description': 'Chat interactions today'}]}
+2026-06-10 19:28:55,285 - INFO - User message: Hello
+2026-06-10 19:28:55,285 - INFO - Routing to Chat Agent
+2026-06-10 19:29:11,721 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-10 19:29:11,722 - INFO - AI response: Welcome! I'm your dedicated Enterprise AI Banking Assistant. It's great to have you here! How can I assist you today? Would you like to check your account balance, pay a bill, or maybe explore some investment options? Just let me know, and I'll do my best to help you with your banking needs!
+2026-06-10 23:46:58,171 - INFO - User message: what is Meta
+2026-06-10 23:46:58,172 - INFO - Routing to Chat Agent
+2026-06-10 23:47:29,499 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-10 23:47:29,499 - INFO - AI response: As a knowledgeable and efficient Enterprise AI Banking Assistant, I'm happy to help you understand more about Meta!
+
+Meta is actually the new name for Facebook's parent company, which was rebranded in 2021. The term "Meta" refers to the concept of metaverse, which is a virtual world that enables people to interact with each other and digital content in a more immersive and interactive way.
+
+In the context of Meta, it means that the company is focusing on building this virtual reality (VR) and augmented reality (AR) technology to create a new level of interaction between humans. This includes platforms like Facebook, Instagram, and WhatsApp, as well as emerging areas like e-commerce, entertainment, and more!
+
+As an AI banking assistant, I can help you understand how Meta's technologies might impact the financial services industry in the future. For instance, Meta is working on developing digital payment systems that could potentially disrupt traditional payment methods.
+
+Would you like me to provide more information on how Meta's metaverse concept or digital payments might affect your banking experience?
+2026-06-11 00:40:20,665 - INFO - User message: show chat history
+2026-06-11 00:40:20,666 - INFO - Routing to SQL Agent
+2026-06-11 00:40:27,362 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-11 00:40:27,363 - INFO - SQL_query before cleaning: SELECT * FROM dashboards;
+2026-06-11 00:40:27,363 - INFO - Generated SQL: SELECT * FROM dashboards;
+2026-06-11 00:40:27,363 - INFO - Tool Call: tool='sql' query='SELECT * FROM dashboards;' collection=None payload=None
+2026-06-11 00:40:27,363 - INFO - Executing tool: sql with query: SELECT * FROM dashboards;
+2026-06-11 00:40:27,363 - INFO - Received SQL query: SELECT * FROM dashboards;
+2026-06-11 00:40:27,448 - INFO - AI response: {'query': 'SELECT * FROM dashboards;', 'results': [{'id': 1, 'name': 'Banking KPI Dashboard', 'description': 'Shows banking metrics and loan KPIs'}, {'id': 2, 'name': 'Fraud Analytics Dashboard', 'description': 'Shows fraud detection insights'}]}
+2026-06-11 23:28:20,319 - INFO - User message: show chat history
+2026-06-11 23:28:20,320 - INFO - Routing to Mongo Agent
+2026-06-11 23:28:20,343 - INFO - AI response: {'status': 'success', 'count': 0}
+2026-06-11 23:28:51,857 - INFO - User message: count chat history
+2026-06-11 23:28:51,858 - INFO - Routing to SQL Agent
+2026-06-11 23:29:05,221 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-11 23:29:05,221 - INFO - SQL_query before cleaning: SELECT COUNT(*) FROM dashboards;
+2026-06-11 23:29:05,221 - INFO - Generated SQL: SELECT COUNT(*) FROM dashboards;
+2026-06-11 23:29:05,221 - INFO - Tool Call: tool='sql' query='SELECT COUNT(*) FROM dashboards;' collection=None payload=None
+2026-06-11 23:29:05,221 - INFO - Executing tool: sql with query: SELECT COUNT(*) FROM dashboards;
+2026-06-11 23:29:05,222 - INFO - Received SQL query: SELECT COUNT(*) FROM dashboards;
+2026-06-11 23:29:05,264 - INFO - AI response: {'query': 'SELECT COUNT(*) FROM dashboards;', 'results': [{'COUNT(*)': 2}]}

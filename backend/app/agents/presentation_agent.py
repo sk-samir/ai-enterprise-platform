@@ -1,17 +1,19 @@
-from app.services.ai_service import AIService
+from app.services.presentation_service import (
+    PresentationService
+)
 
 
 class PresentationAgent:
 
     @staticmethod
-    def process(user_message: str):
+    def process(topic: str):
 
-        prompt = f"""
-        You are a PowerPoint presentation generation assistant.
+        file_path = (
+            PresentationService
+            .create_presentation(topic)
+        )
 
-        Create slide content for:
-
-        {user_message}
-        """
-
-        return AIService.generate_response(prompt)
+        return {
+            "status": "success",
+            "file_path": file_path
+        }

@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, UTC
 
 from app.database.mongodb import mongodb
 
@@ -13,7 +13,7 @@ class ChatHistoryService:
         document = {
             "user_message": user_message,
             "ai_response": ai_response,
-            "created_at": datetime.utcnow()
+            "created_at": datetime.now(UTC)
         }
 
         collection.insert_one(document)

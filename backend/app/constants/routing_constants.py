@@ -4,12 +4,9 @@ SQL_KEYWORDS = [
     "table",
     "database",
     "sql",
-    "show",
-    "list",
+    "query",
     "count",
-    "fetch",
     "select",
-    "display",
     "retrieve",
     "delete",
     "update",
@@ -34,4 +31,18 @@ DASHBOARD_KEYWORDS = [
     "analytics",
     "metrics",
     "kpi"
+]
+
+PRESENTATION_KEYWORDS = [
+    "presentation",
+    "ppt",
+    "powerpoint",
+    "slide",
+    "slides"
+]
+
+MONGO_KEYWORDS = [
+    "mongo",
+    "mongodb",
+    "chat history"
 ]

@@ -25,3 +25,23 @@ class MongoTool:
             "status": "success",
             "documents": documents
         }
+    
+    @staticmethod
+    def count(collection: str):
+
+        total  = MongoService.count_documents(collection)
+
+        return {
+            "status": "success",
+            "count": total 
+        }
+    
+    @staticmethod
+    def fetch_by_filter(collection: str, query: dict):
+
+        documents = MongoService.get_documents_by_filter(collection, query)
+
+        return {
+            "status": "success",
+            "documents": documents
+        }

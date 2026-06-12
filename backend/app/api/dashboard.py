@@ -1,17 +1,25 @@
 from fastapi import APIRouter
 from app.utils.logger import logger
+from app.schemas.dashboard_api_schema import (
+    DashboardRequest
+)
+
+from app.services.dashboard_service import (
+    DashboardService
+)
 
 router = APIRouter()
 
 @router.post("/dashboard")
-def dashboard():
-    logger.info("Dashboard request received")
+
+def generate_dashboard(
+    request: DashboardRequest
+):
+
+    dashboard = DashboardService.generate_dashboard(
+        request.query
+    )
 
     return {
-        "metrics": {
-            "users": 1200,
-            "transactions": 4500,
-            "revenue": 98000
-        },
-        "status": "mock-data"
+        "dashboard": dashboard
     }

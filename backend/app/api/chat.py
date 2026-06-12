@@ -1,18 +1,17 @@
 from fastapi import APIRouter
-from pydantic import BaseModel
 
 from app.agents.router_agent import RouterAgent
 from app.utils.logger import logger
 from app.services.chat_history_service import ChatHistoryService
 
+from app.schemas.chat_api_schema import (
+    ChatRequest,
+    ChatResponse
+)
+
 router = APIRouter()
 
-
-class ChatRequest(BaseModel):
-    message: str
-
-
-@router.post("/chat")
+@router.post("/chat", response_model=ChatResponse)
 def chat(req: ChatRequest):
 
     logger.info(f"User message: {req.message}")

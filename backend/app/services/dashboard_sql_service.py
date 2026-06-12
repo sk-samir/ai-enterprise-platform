@@ -37,8 +37,24 @@ class DashboardSQLService:
 
         return results
 
+    # @staticmethod
+    # def get_revenue_data(filters=None):
+
+    #     query = """
+    #     SELECT
+    #         month,
+    #         revenue
+    #     FROM banking_analytics
+    #     """
+
+    #     results = SQLExecutorService.execute_query(
+    #         query
+    #     )
+
+    #     return results
+
     @staticmethod
-    def get_revenue_data():
+    def get_revenue_data(filters=None):
 
         query = """
         SELECT
@@ -47,11 +63,29 @@ class DashboardSQLService:
         FROM banking_analytics
         """
 
-        results = SQLExecutorService.execute_query(
+        conditions = []
+
+        if filters and filters.month:
+
+            conditions.append(
+                f"month = '{filters.month}'"
+            )
+
+        if filters and filters.category:
+
+            conditions.append(
+                f"category = '{filters.category}'"
+            )
+
+        if conditions:
+
+            query += " WHERE " + " AND ".join(
+                conditions
+            )
+
+        return SQLExecutorService.execute_query(
             query
         )
-
-        return results
     
     @staticmethod
     def get_total_revenue():

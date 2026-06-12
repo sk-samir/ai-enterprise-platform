@@ -17,19 +17,27 @@ from app.services.mongo_analytics_service import (
     MongoAnalyticsService
 )
 
+from app.services.dashboard_filter_service import (
+    DashboardFilterService
+)
 
 class DashboardService:
 
     @staticmethod
     def generate_dashboard(user_input: str):
 
+        filters = (
+            DashboardFilterService
+            .extract_filters(user_input)
+        )
+         
         widgets = []
         
         if "revenue" in user_input.lower():
 
             revenue_data = (
                 DashboardSQLService
-                .get_revenue_data()
+                .get_revenue_data(filters)
             )
 
             widgets.append(

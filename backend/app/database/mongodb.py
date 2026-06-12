@@ -1,8 +1,8 @@
 from pymongo import MongoClient
 
-from app.database.connection import Settings
 
+from app.config.settings import settings
 
-client = MongoClient(Settings.MONGO_URI)
+client = MongoClient(settings.MONGO_URI)
 
-mongodb = client[Settings.MONGO_DATABASE]
+mongodb = client[settings.MONGO_DATABASE]

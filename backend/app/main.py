@@ -1,9 +1,6 @@
 from fastapi import FastAPI
 from app.api.router import api_router
 
-app = FastAPI()
-
-
 app = FastAPI(
     title="AI Enterprise Platform",
     version="1.0.0"

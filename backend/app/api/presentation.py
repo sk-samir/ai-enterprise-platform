@@ -1,17 +1,21 @@
 from fastapi import APIRouter
 from app.utils.logger import logger
+from app.schemas.presentation_api_schema import (
+    PresentationRequest
+)
+
+from app.agents.presentation_agent import (
+    PresentationAgent
+)
 
 router = APIRouter()
 
 @router.post("/presentation")
-def presentation():
-    logger.info("Presentation request received")
 
-    return {
-        "slides": [
-            {"title": "Slide 1", "content": "Introduction"},
-            {"title": "Slide 2", "content": "Key Insights"},
-            {"title": "Slide 3", "content": "Conclusion"}
-        ],
-        "status": "mock-ppt"
-    }
+def create_presentation(
+    request: PresentationRequest
+):
+
+    return PresentationAgent.process(
+        request.topic
+    )
